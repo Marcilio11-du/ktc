@@ -21,6 +21,8 @@ fun main() {
         var name: String;
         var tentativas= 0;
         var acesso = false
+
+        do{
             print("Insira o nome: ")
             name = readln()
 
@@ -33,6 +35,14 @@ fun main() {
                     break
                 }
             }
+            if(!acesso) {
+                println("Dados inválidos")
+                println("${tentativas + 1}ª tentativa de $lim")
+                tentativas++
+            }else
+                break
+        }while(tentativas <= lim);
+
         return acesso
     }
     //Método para criação de conta
