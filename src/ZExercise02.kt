@@ -100,7 +100,7 @@ fun updateProduct() {
             println("Insira o novo preço(Enter se ñ quer atualizar): ")//Feature por melhorar
             newPrice = readln().toFloat()
         }while(newPrice <= 0)
-        
+
         product = Triple(newName, newAmount, newPrice)
         products[products.indexOf(queryProduct(name))] = product // Substitui o produto atualizado, utilizando o seu índice.
         println("Produto atualizado com sucesso!!!")
