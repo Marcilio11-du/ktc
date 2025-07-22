@@ -1,3 +1,5 @@
+package basicsyntax
+
 fun main() {
 
     //Variáveis de armazenamento

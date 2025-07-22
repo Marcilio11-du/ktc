@@ -1,3 +1,5 @@
+package basicsyntax
+
 fun main() {
     //Declaração de Arrays
     val array0 = arrayOf(1,2,3,4,5,6,7,8,9,10); //Inferência de tipo Array<Int>

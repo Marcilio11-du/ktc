@@ -1,4 +1,4 @@
-
+package basicsyntax
 fun main() {
     val a = 5;
     val b = 6;

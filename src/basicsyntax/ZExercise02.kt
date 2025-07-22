@@ -1,4 +1,4 @@
-//Gestor de Estoque
+package basicsyntax//Gestor de Estoque
 
 fun main() {initialize()}
 
